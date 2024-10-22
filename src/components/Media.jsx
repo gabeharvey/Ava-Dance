@@ -6,18 +6,18 @@ const MotionBox = motion.create(Box);
 function Media() {
   const mediaArticles = [
     {
-      title: "Norah Castillo Wins Tournament",
+      title: "Ava Castillo Performs In SpongeBob",
       url: "https://news4sanantonio.com",
     },
     {
-      title: "Norah Castillo Gives Back to Community",
+      title: "Ava Castillo Gives Back to Community",
       url: "https://news4sanantonio.com",
     },
   ];
 
   return (
     <VStack spacing={10} p={6} mt={12} align="center"> 
-      <Heading fontSize="4xl" fontWeight="medium" color="#228B22" fontFamily="'Gentium Plus', serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#8E4585" fontFamily="'Dancing Script', cursive" mb="5">
         Media Coverage
       </Heading>
       <Flex direction="column" alignItems="center" width="100%">
@@ -30,7 +30,7 @@ function Media() {
             bgColor="#ebebeb"
             borderRadius="12px"
             borderWidth="4px"
-            borderColor="#228B22"
+            borderColor="#8E4585"
             boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
             p={4}
             display="flex"

@@ -26,7 +26,7 @@ function Offers() {
       bgRepeat="no-repeat"
       mt={12}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#228B22" fontFamily="'Gentium Plus', serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#8E4585" fontFamily="'Dancing Script', cursive" mb="5">
         Scholarship Offers
       </Heading>
       <Flex
@@ -46,7 +46,7 @@ function Offers() {
             bgSize="1px 1px"
             borderRadius="12px"
             borderWidth="5px"
-            borderColor="#228B22"
+            borderColor="#8E4585"
             boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
             p={4}
             display="flex"
@@ -64,7 +64,7 @@ function Offers() {
               mr={4}
             />
             <Box>
-              <Text color="#38393d" fontWeight="bold" fontFamily="'Gentium Plus', serif" fontSize="lg">
+              <Text color="#38393d" fontWeight="bold" fontFamily="'Dancing Script', serif" fontSize="lg">
                 {offer.schoolName}
               </Text>
               <Text color="#38393d" fontFamily="'Roboto+Condensed', system-ui" fontSize="md" fontWeight="semibold" mt={1}>

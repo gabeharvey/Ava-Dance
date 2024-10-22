@@ -16,7 +16,7 @@ function Contact() {
       bgRepeat="no-repeat"
       mb={16}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#228B22" fontFamily="'Gentium Plus', serif">
+      <Heading fontSize="4xl" fontWeight="medium" color="#8E4585" fontFamily="'Dancing Script', cursive">
         Contact Us
       </Heading>
       
@@ -26,7 +26,7 @@ function Contact() {
         bgImage="linear-gradient(-45deg, #38393d 25%, transparent 25%, transparent 50%, #38393d 50%, #38393d 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         borderRadius="12px"
-        borderColor="#228B22"
+        borderColor="#8E4585"
         borderWidth="4px"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={6}
@@ -36,7 +36,7 @@ function Contact() {
       >
         <Grid gap={4}>
           <FormControl id="name">
-            <FormLabel color="#F5F5DC" fontFamily="'Gentium Plus', serif">
+            <FormLabel color="#F5F5DC" fontFamily="'Dancing Script', cursive">
               Name
             </FormLabel>
             <Input
@@ -49,7 +49,7 @@ function Contact() {
           </FormControl>
 
           <FormControl id="email">
-            <FormLabel color="#F5F5DC" fontFamily="'Gentium Plus', serif">
+            <FormLabel color="#F5F5DC" fontFamily="'Dancing Script', cursive">
               Email
             </FormLabel>
             <Input
@@ -63,7 +63,7 @@ function Contact() {
           </FormControl>
 
           <FormControl id="message">
-            <FormLabel color="#F5F5DC" fontFamily="'Gentium Plus', serif">
+            <FormLabel color="#F5F5DC" fontFamily="'Dancing Script', cursive">
               Message
             </FormLabel>
             <Textarea
@@ -78,16 +78,16 @@ function Contact() {
 
           <Button
             mt={4}
-            bgColor="#228B22"
+            bgColor="#8E4585"
             color="#F5F5DC"
             minW="100%"
             maxW="45%"
             alignSelf="center"
-            fontFamily="'Gentium Plus', serif"
+            fontFamily="'Dancing Script', cursive"
             fontWeight="medium"
             fontSize="xl"
             borderRadius="8px"
-            borderColor="#228B22"
+            borderColor="#8E4585"
             borderWidth="3px"
             _hover={{ borderColor: '#F5F5DC' }}
           >

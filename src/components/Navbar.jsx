@@ -66,14 +66,14 @@ const Navbar = () => {
 
     return (
         <Box
-            bgColor="#228B22"
+            bgColor="#8E4585"
             borderBottomRadius="12px"
             py="2.5rem"
             px="2rem"
             position="relative"
             boxShadow="lg"
             mb="10px"
-            fontFamily="'Gentium Plus', serif"
+            fontFamily="'Dancing Script', cursive"
         >
             <Flex alignItems="center" justifyContent="space-between" wrap="wrap">
                 <Flex
@@ -88,7 +88,7 @@ const Navbar = () => {
                         offset={-100}
                         duration={500}
                         fontSize={{ base: '3xl', md: '4xl' }}
-                        fontFamily="'Gentium Plus', serif"
+                        fontFamily="'Dancing Script', cursive"
                         color="#F5F5DC"
                         letterSpacing="wider"
                         mb={isMobile ? 2 : 0}
@@ -140,7 +140,7 @@ const Navbar = () => {
                     justifyContent="space-evenly"
                     whiteSpace="nowrap"
                 >
-                    {['PLAYER BIO', 'GOLF FILM', 'PLAYER CARDS', 'OFFERS', 'CONTACT'].map((text, index) => (
+                    {['PLAYER BIO', 'DANCE FILM', 'PLAYER CARDS', 'OFFERS', 'CONTACT'].map((text, index) => (
                         <ChakraLink
                             key={index}
                             as={ScrollLink}
@@ -153,7 +153,7 @@ const Navbar = () => {
                             fontWeight="extrabold"
                             color="#F5F5DC"
                             position="relative"
-                            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#e47608' }}
+                            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#98FF98' }}
                             _after={{
                                 content: '""',
                                 position: 'absolute',
@@ -161,7 +161,7 @@ const Navbar = () => {
                                 left: 0,
                                 width: '0%',
                                 height: '2px',
-                                bg: '#e47608',
+                                bg: '#98FF98',
                                 transition: 'width 0.3s ease',
                             }}
                             _hoverAfter={{ width: '100%' }}
@@ -181,7 +181,7 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bgColor="#228B22"
+                            bgColor="#8E4585"
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"
@@ -209,7 +209,7 @@ const Navbar = () => {
                             </Flex>
                             {/* <Divider /> */}
                             <Flex as="ul" flexDirection="column" alignItems="flex-start" gap="1rem" mt="1rem">
-                                {['PLAYER BIO', 'GOLF FILM', 'PLAYER CARDS', 'OFFERS', 'CONTACT'].map((text, index) => (
+                                {['PLAYER BIO', 'DANCE FILM', 'PLAYER CARDS', 'OFFERS', 'CONTACT'].map((text, index) => (
                                     <ChakraLink
                                         key={index}
                                         as={ScrollLink}
@@ -222,7 +222,7 @@ const Navbar = () => {
                                         fontWeight="extrabold"
                                         color="#F5F5DC"
                                         position="relative"
-                                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#e47608' }}
+                                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#98FF98' }}
                                         style={{ cursor: 'pointer' }}
                                     >
                                         {text}

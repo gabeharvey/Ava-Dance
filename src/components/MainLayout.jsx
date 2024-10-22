@@ -1,7 +1,7 @@
 import PlayerBio from './PlayerBio';
 import PlayerCards from './PlayerCards';
 import Contact from './Contact';
-import GolfFilm from './GolfFilm';
+import DanceFilm from './DanceFilm';
 import Offers from './Offers';
 import Media from './Media';
 
@@ -11,8 +11,8 @@ const MainLayout = () => {
       <div id="player-bio">
         <PlayerBio />
       </div>
-      <div id="golf-film">
-        <GolfFilm />
+      <div id="dance-film">
+        <DanceFilm />
       </div>
       <div id="player-cards">
         <PlayerCards />

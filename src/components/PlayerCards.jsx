@@ -34,7 +34,7 @@ function Card({ frontImg, bio, flipSound }) {
             bgSize="cover"
             bgPosition="center"
             borderRadius="12px"
-          borderColor="#228B22"
+          borderColor="#8E4585"
           borderWidth="3px"
             w="100%"
             h="100%"
@@ -52,7 +52,7 @@ function Card({ frontImg, bio, flipSound }) {
           w="100%"
           h="100%"
           borderRadius="12px"
-          borderColor="#228B22"
+          borderColor="#8E4585"
           borderWidth="3px"
           display="flex"
           flexDirection="column"
@@ -62,10 +62,10 @@ function Card({ frontImg, bio, flipSound }) {
           transform="rotateY(180deg)"
           p={5}
         >
-          {/* <Text fontSize="2xl" fontWeight="bold" color="#F28C28" fontFamily="'Gentium Plus', serif">
+          {/* <Text fontSize="2xl" fontWeight="bold" color="#F28C28" fontFamily="'Dancing Script', cursive">
             {name}
           </Text> */}
-          <Text mt={4} color="#F8F8F8" fontFamily="'Gentium Plus', serif" fontSize="xl" fontWeight="medium" textAlign="center">
+          <Text mt={4} color="#F8F8F8" fontFamily="'Dancing Script', cursive" fontSize="xl" fontWeight="medium" textAlign="center">
           {bio}
           </Text>
         </Box>
@@ -79,46 +79,47 @@ function PlayerCards() {
 
   const players = [
     {
-      frontImg: "norah-1.png",
-      name: "Norah Castillo",
-      bio: "Norah Castillo is a master of the long game, with an average driving distance of 280 yards, making her a force on the fairway."
+      frontImg: "ava-1.png",
+      name: "Ava Castillo",
+      bio: "Ava Castillo is a master of contemporary dance, known for her fluid movements and emotional expression on stage."
     },
     {
-      frontImg: "norah-1.png",
-      name: "Norah Castillo",
-      bio: "Norah Castillo is known for her precision approach shots, consistently placing the ball within striking distance of the pin."
+      frontImg: "ava-1.png",
+      name: "Ava Castillo",
+      bio: "Ava Castillo brings energy and creativity to hip-hop dance, captivating audiences with her freestyle skills."
     },
     {
-      frontImg: "norah-1.png",
-      name: "Norah Castillo",
-      bio: "With an exceptional golf IQ, Norah Castillo reads the course and conditions like a pro, making smart decisions on every hole."
+      frontImg: "ava-1.png",
+      name: "Ava Castillo",
+      bio: "With exceptional ballet technique, Ava Castillo captivates audiences with her grace and precision in every routine."
     },
     {
-      frontImg: "norah-1.png",
-      name: "Norah Castillo",
-      bio: "Norah Castillo thrives under pressure, regularly sinking clutch putts to close out tournaments in dramatic fashion."
+      frontImg: "ava-1.png",
+      name: "Ava Castillo",
+      bio: "Ava Castillo thrives in the world of salsa, dazzling partners with her intricate footwork and rhythm on the dance floor."
     },
     {
-      frontImg: "norah-1.png",
-      name: "Norah Castillo",
-      bio: "Known for her excellent bunker play, Norah Castillo can escape tough sand traps with ease, turning tough situations into opportunities."
+      frontImg: "ava-1.png",
+      name: "Ava Castillo",
+      bio: "Known for her stunning jazz performances, Ava Castillo combines athleticism with artistry, leaving spectators in awe."
     },
     {
-      frontImg: "norah-1.png",
-      name: "Norah Castillo",
-      bio: "Norah Castillo's short game is nothing short of remarkable, with flawless chipping and putting that gives her an edge on the greens."
+      frontImg: "ava-1.png",
+      name: "Ava Castillo",
+      bio: "Ava Castillo's expertise in breakdancing shines through in her impressive spins and acrobatic moves, making her a crowd favorite."
     },
     {
-      frontImg: "norah-1.png",
-      name: "Norah Castillo",
-      bio: "Norah Castillo has a reputation for clutch performances, consistently making birdies in the final rounds to secure victories."
+      frontImg: "ava-1.png",
+      name: "Ava Castillo",
+      bio: "Ava Castillo is a versatile dancer, effortlessly transitioning between styles like tap and contemporary, showcasing her diverse talent."
     },
     {
-      frontImg: "norah-1.png",
-      name: "Norah Castillo",
-      bio: "Her consistent mid-range iron play makes Norah Castillo a reliable contender, landing the ball on the green with accuracy on every approach."
+      frontImg: "ava-1.png",
+      name: "Ava Castillo",
+      bio: "With a background in ballroom dancing, Ava Castillo is known for her elegance and poise, captivating audiences at every gala."
     },
-  ];  
+  ];
+  
 
   const columns = useBreakpointValue({ base: 1, sm: 1, md: 2, lg: 3, xl: 4 });
 
@@ -135,10 +136,10 @@ function PlayerCards() {
       mt={{ base: 12, md: 16 }} 
       mb={{ base: 12, md: 16 }} 
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#228B22" fontFamily="'Gentium Plus', serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#8E4585" fontFamily="'Dancing Script', cursive">
         Player Cards    
       </Text>
-      <Text fontSize="2xl" fontWeight="medium" color="#38393d" fontFamily="'Gentium Plus', serif">
+      <Text fontSize="2xl" fontWeight="medium" color="#38393d" fontFamily="'Dancing Script', cursive">
         Click on card for more info
         </Text>
 

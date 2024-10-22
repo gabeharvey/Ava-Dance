@@ -8,16 +8,16 @@ const MotionBox = motion.create(Box);
 
 function PlayerProfile() {
   const player = {
-    frontImg: "norah-1.png",
+    frontImg: "ava-1.png",
     secondImg: "basketball-placeholder.png",
-    name: "Player Bio", 
+    name: "Dancer Bio", 
     bioCategories: [
-      { title: "Class", description: "2029" },
-      { title: "Style", description: "Scrambler" },
-      { title: "Height", description: "5'4\"" },
-      { title: "Weight", description: "115 lbs" },
+      { title: "Class", description: "2030" },
+      { title: "Style", description: "Contemporary" },
+      { title: "Height", description: "5'3\"" },
+      { title: "Weight", description: "102 lbs" },
       { title: "Place of Birth", description: "San Antonio, TX" },
-      { title: "High School", description: "Health Careers" },
+      { title: "High School", description: "NESA" },
     ],
   };
 
@@ -27,7 +27,7 @@ function PlayerProfile() {
       p={6}
       mt={12} 
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#228B22" fontFamily="'Gentium Plus', serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#8E4585" fontFamily="'Dancing Script', cursive" mb="5">
         {player.name}
       </Heading>
       <Flex flexDirection="row" flexWrap="wrap" justifyContent="center" alignItems="center">
@@ -56,7 +56,7 @@ function PlayerProfile() {
           bgSize="1px 1px"
           borderRadius="12px"
           borderWidth="5px"
-          borderColor="#228B22"
+          borderColor="#8E4585"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
           p={6}
           initial={{ scale: 0.9, opacity: 0.5 }}
@@ -66,7 +66,7 @@ function PlayerProfile() {
           <Grid gap={4}>
             {player.bioCategories.map((category, index) => (
               <Box key={index} p={3} bgColor="transparent" borderRadius="8px">
-                <Text color="#38393d" fontWeight="bold" fontFamily="'Gentium Plus', serif" fontSize="lg">
+                <Text color="#38393d" fontWeight="bold" fontFamily="'Dancing Script', cursive" fontSize="lg">
                   {category.title}
                 </Text>
                 <Text color="#38393d" fontFamily="'Roboto+Condensed', system-ui" fontSize="lg" fontWeight="semibold" mt={1}>

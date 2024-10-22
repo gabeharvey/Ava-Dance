@@ -9,11 +9,11 @@ function VideoCard({ videoSrc, title, description }) {
         h="100%"
         borderRadius="12px"
         borderWidth="4px"
-        borderColor="#228B22"
+        borderColor="#8E4585"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         overflow="hidden"
-        bgColor="#228B22"
-        bgImage="linear-gradient(-45deg, #228B22 25%, transparent 25%, transparent 50%, #228B22 50%, #228B22 75%, transparent 75%, transparent)"
+        bgColor="#8E4585"
+        bgImage="linear-gradient(-45deg, #8E4585 25%, transparent 25%, transparent 50%, #8E4585 50%, #8E4585 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         display="flex"
         flexDirection="column"
@@ -31,7 +31,7 @@ function VideoCard({ videoSrc, title, description }) {
           />
         </Box>
         <Box p={3} textAlign="center" bgColor="#F5F5F5" h="30%">
-          <Text fontSize="2xl" fontWeight="semibold" color="#38393d" fontFamily="'Gentium Plus', serif">
+          <Text fontSize="2xl" fontWeight="semibold" color="#38393d" fontFamily="'Dancing Script', cursive">
             {title}
           </Text>
           <Text mt={2} fontSize="lg" fontWeight="bold" color="#38393d" fontFamily="'Roboto+Condensed', system-ui">
@@ -43,49 +43,50 @@ function VideoCard({ videoSrc, title, description }) {
   );
 }
 
-function GolfFilm() {
+function DanceFilm() {
     const videos = [
-      {
-        videoSrc: "Norah-vid-1.MOV",
-        title: "Norah's Winning Putt",
-        description: "Clutch Finish on the 18th Hole",
-      },
-      {
-        videoSrc: "Norah-vid-2.mov",
-        title: "Norah Golf Training",
-        description: "Intense Practice Session",
-      },
-      {
-        videoSrc: "Norah-vid-3.MOV",
-        title: "Norah Driving Techniques",
-        description: "Mastering the Perfect Drive",
-      },
-      {
-        videoSrc: "Norah-vid-4.MOV",
-        title: "Norah's Fast Greens Play",
-        description: "Quick and Accurate Green Play",
-      },
-      {
-        videoSrc: "Norah-vid-5.MOV",
-        title: "Norah's Sand Trap Escape",
-        description: "Amazing Recovery",
-      },
-      {
-        videoSrc: "../video6.mp4",
-        title: "Norah's Pinpoint Putting",
-        description: "Precision Putting Techniques",
-      },
-      {
-        videoSrc: "../video7.mp4",
-        title: "Norah Championship Round",
-        description: "Highlights from the Finals",
-      },
-      {
-        videoSrc: "../video8.mp4",
-        title: "Norah's Golf Highlights",
-        description: "Top Plays from Junior Tournaments",
-      },
-    ];
+        {
+          videoSrc: "Ava-vid-1.MOV",
+          title: "Ava's Stunning Contemporary Solo",
+          description: "Emotional Depth",
+        },
+        {
+          videoSrc: "Ava-vid-2.mov",
+          title: "Ava's Hip-Hop Dance Training",
+          description: "Intense Rehearsal and Freestyle Skills",
+        },
+        {
+          videoSrc: "Ava-vid-3.MOV",
+          title: "Ava's Graceful Ballet Performance",
+          description: "Mastering Technique and Poise",
+        },
+        {
+          videoSrc: "Ava-vid-4.MOV",
+          title: "Ava's Salsa Showdown",
+          description: "Dynamic Footwork and Rhythmic Flair",
+        },
+        {
+          videoSrc: "Ava-vid-5.MOV",
+          title: "Ava's Jazz Fusion Routine",
+          description: "Energetic Moves and Creative Expression",
+        },
+        {
+          videoSrc: "../video6.mp4",
+          title: "Ava's Breakdancing Highlights",
+          description: "Impressive Spins",
+        },
+        {
+          videoSrc: "../video7.mp4",
+          title: "Ava's Ballroom Dance Gala",
+          description: "Elegance and Style on Display",
+        },
+        {
+          videoSrc: "../video8.mp4",
+          title: "Ava's Dance Competition Highlights",
+          description: "Top Performances",
+        },
+      ];
+      
 
   const columns = useBreakpointValue({ base: 1, sm: 1, md: 2, lg: 3, xl: 4 });
 
@@ -102,8 +103,8 @@ function GolfFilm() {
       mt={{ base: 12, md: 16 }}
       mb={{ base: 12, md: 16 }}
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#228B22" fontFamily="'Gentium Plus', serif">
-        Golf Film
+      <Text fontSize="4xl" fontWeight="medium" color="#8E4585" fontFamily="'Dancing Script', cursive">
+        Dance Film
       </Text>
       <SimpleGrid columns={columns} spacing={{ base: 3, sm: 5 }} justifyItems="center">
         {videos.map((video, index) => (
@@ -119,4 +120,4 @@ function GolfFilm() {
   );
 }
 
-export default GolfFilm;
+export default DanceFilm;

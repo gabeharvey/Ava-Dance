@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
 #root {
-  font-family: "Gentium Plus", serif;
-  background-color: #F5F5DC;
+  font-family: "Dancing Script", cursive;
+  background-color: #E6E6FA;
 }
 
 .zoom-in {
@@ -23,7 +24,7 @@
 }
 
 .navbar {
-  font-family: "Gentium Plus", serif;
+  font-family: "Dancing Script", cursive;
   display: flex;
   justify-content: space-between; 
   align-items: center;
@@ -40,14 +41,14 @@
 }
 
 .logo {
-  font-family: "Gentium Plus", serif;
-  color: #F5F5DC; 
+  font-family: "Dancing Script", cursive;
+  color: #E6E6FA; 
   font-size: 42px;
   font-weight: bold;
 }
 
 .nav-links {
-  font-family: "Gentium Plus", serif;
+  font-family: "Dancing Script", cursive;
   list-style-type: none;
   display: flex;
   margin: 0;
@@ -60,22 +61,22 @@
 
 .nav-link {
   font-family: "Roboto+Condensed", system-ui;
-  color: #CC5500; 
+  color: #98FF98; 
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s;
 }
 
 .nav-link:hover {
-  color: #F5F5DC; 
+  color: #E6E6FA; 
 }
 
 .footer {
-  background-color: #228B22; 
-  font-family: "Gentium Plus", serif;
+  background-color: #8E4585; 
+  font-family: "Dancing Script", cursive;
   padding: 20px;
   text-align: center;
-  background-image: linear-gradient(-45deg, #228B22 25%, transparent 25%, transparent 50%, #228B22 50%, #228B22 75%, transparent 75%, transparent);
+  background-image: linear-gradient(-45deg, #8E4585 25%, transparent 25%, transparent 50%, #8E4585 50%, #8E4585 75%, transparent 75%, transparent);
   background-size: 1px 1px;
 }
 
@@ -116,11 +117,11 @@
 }
 
 .footer-link:hover {
-  color: #CC5500; 
+  color: #98FF98; 
 }
 
 .tilt-prism-footer {
-  font-family: 'Tilt Prism', serif;
+  font-family: 'Tilt Prism', cursive;
   font-size: 22px;
   color: #F5F5F5;
   font-weight: bold;
